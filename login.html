@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login</title></head>
+<body>
+  <h2>Login Page</h2>
+  <form method="post">
+    Username: <input name="username" required><br><br>
+    Password: <input type="password" name="password" required><br><br>
+    <input type="submit" value="Login">
+  </form>
+  <p>{{ message }}</p>
+  <h3>Test Credentials</h3>
+  <p>User: {{ login_info.username }}</p>
+  <p>Pass: {{ login_info.password }}</p>
+</body>
+</html>
